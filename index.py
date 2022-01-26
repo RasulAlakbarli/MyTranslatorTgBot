@@ -1,8 +1,9 @@
-from data import token
 from Languages import Languages
 import telebot
 from telebot import types
 from googletrans import Translator
+
+token = '5255716099:AAG63R3cwT4hcEpPg3N1dCy5e5GHoxTykxA'
 
 global bot
 bot = telebot.TeleBot(token)
