@@ -1,4 +1,3 @@
-from Languages import Languages
 import telebot
 from telebot import types
 from googletrans import Translator
