@@ -1,15 +1,16 @@
 import telebot
 from googletrans import Translator
 
-global bot
-bot = telebot.TeleBot(token)
-global translator
-transl = Translator()
 
 token = '5255716099:AAG63R3cwT4hcEpPg3N1dCy5e5GHoxTykxA'
 Languages = {
     'az': 'azerbaijani', 'en': 'English', 'fr': 'French', 'ru': 'Russian', 'tr': '🇹🇷 turkish'
     }
+
+global bot
+bot = telebot.TeleBot(token)
+global translator
+transl = Translator()
 
 def myBot(token):
         
