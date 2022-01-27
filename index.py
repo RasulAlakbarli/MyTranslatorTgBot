@@ -54,7 +54,7 @@ def myBot(token):
 
         print(message.text)
 
-    bot.polling(non_stop=True)
+    bot.polling()
 
 if __name__ == '__main__':
     myBot(token)
